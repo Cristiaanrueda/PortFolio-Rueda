@@ -1,4 +1,6 @@
 /*NAV --- -----*/
+
+
 .wrapper{
     display: flex;
 }
@@ -9,9 +11,11 @@
 }
 
 .options__container{
-    display: flex;
+    /* display: flex; */
     margin-top: 3rem;
     font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .options__container a {
@@ -38,10 +42,11 @@
 .img__container {
     /*display: flex;*/
     width: 120px;
-    height: 120px;
+    height: 100px;
     margin-right: 55%;
     margin-left: 5%;
-    margin-bottom: -2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /* HEADER ---------------- */
@@ -53,6 +58,7 @@ header {
     /* justify-content: center;
     align-items: center; */
     border: 1px solid rgba(0,0,0,0.19);
+    padding: 2rem;
 }
 
 header h1 {
@@ -97,24 +103,32 @@ header button:hover{
 
 .header__grid1 {
     margin: 0 auto;
-    margin-top: 15rem;
+    margin-top: 2rem;
     width: auto;
     height: auto;
+    text-align: center;
+    
 }
 
 .header__grid2 {
-    background: url(./assets/headerlogo2.png);
+    background: url(./assets/imagencv.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     margin-right: 12rem;
-    margin-top: 2rem;
+    margin: 0 auto;
+    
 
     /* margin: 0 auto; */
     /* margin-right: 30rem; */
    
+}
+
+.header__grid1,
+.header__grid2 {
+    margin-bottom: 2rem;
 }
 
 /* INTRO---------- */
@@ -214,13 +228,19 @@ header button:hover{
 
 .clients__container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* grid-template-columns: 300px 300px 300px 300px; */
     justify-content: center;
     margin-bottom: 20rem;
     margin-top: 5rem;
     margin-left: 9rem;
     grid-gap: 2rem;
+}
+.clients__container a:hover {
+    box-shadow:  20px 20px 60px #c4c4c4,
+             -20px -20px 60px #ffffff;
+             
+
 }
 
 .clients__container img {
