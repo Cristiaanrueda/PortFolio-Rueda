@@ -1,0 +1,319 @@
+/*NAV --- -----*/
+.wrapper{
+    display: flex;
+}
+
+
+.nav__item {
+    margin-left: 3rem;
+}
+
+.options__container{
+    display: flex;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.options__container a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.options__container a:hover {
+    opacity: 0.6;
+
+}
+
+.nav__img{
+/*    width: 60px;
+    height: 60px;*/
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.img__container {
+    /*display: flex;*/
+    width: 120px;
+    height: 120px;
+    margin-right: 55%;
+    margin-left: 5%;
+    margin-bottom: -2rem;
+}
+
+/* HEADER ---------------- */
+
+header {
+    display: flex;
+    /* grid-template-columns: 50% 50%; */
+    /* margin: 0 auto; */
+    /* justify-content: center;
+    align-items: center; */
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+header p {
+    font-size: 3rem;
+    margin-top: 2rem;
+    opacity: 0.8;
+}
+
+header button {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 4rem;
+    width: 14rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+
+.header__button1 {
+    background: rgb(6, 41, 95);
+    color: white;
+}
+
+
+.header__button2 {
+    background: white;
+    color: black;
+}
+
+
+header button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
+
+.header__grid1 {
+    margin: 0 auto;
+    margin-top: 15rem;
+    width: auto;
+    height: auto;
+}
+
+.header__grid2 {
+    background: url(./assets/headerlogo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    margin-right: 12rem;
+    margin-top: 2rem;
+
+    /* margin: 0 auto; */
+    /* margin-right: 30rem; */
+   
+}
+
+/* INTRO---------- */
+
+.intro {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+    opacity: 0.8;
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+/* BENEFICIOS -------------- */
+
+.benefits {
+    border: 1px solid rgba(0,0,0,0.19);
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.benefits p {
+    opacity: 0.7;
+    margin-bottom: 10rem;
+    font-size: 2rem;
+}
+
+.benefits__container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+.benefit1 i,
+.benefit2 i,
+.benefit3 i {
+    color: grey;
+    font-size: 4rem;
+}
+
+
+/* METODOLOGIAS ------------- */
+
+.metodologias {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+.metodologias--fontsize {
+    font-size: 3rem;
+}
+
+.metodologias--fontsizep {
+    font-size: 2rem;
+}
+
+.metodologias p {
+    opacity: 0.8;
+    font-size: 2rem;
+
+}
+
+.metodologias__container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+
+.bg {
+    background: #e0e0e0;
+    display: inline-block;
+    border-radius: 3rem;
+    height: 4rem;
+    width: 4.3rem;
+    text-align: center;
+    color: #a8a8a8;
+}
+
+
+/* clientes --------------------- */
+
+
+.clientes {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.19);
+}
+
+.clientes h2 {
+    font-size: 3rem;
+}
+
+.clientes p {
+    font-size: 2rem;
+}
+
+.clients__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-columns: 300px 300px 300px 300px; */
+    justify-content: center;
+    margin-bottom: 20rem;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    grid-gap: 2rem;
+}
+
+.clients__container img {
+    border-radius: 2rem;
+}
+
+/* CONTACTO -------- */
+
+.contacto {
+    border: 1px solid rgba(0,0,0,0.19);
+    font-size: 2rem;
+    
+    
+}
+
+.contacto h2 {
+    margin-left: 13rem;
+    margin-top: 10rem;
+}
+
+
+.contacto__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10rem;
+}
+
+.contacto__grid1 {
+    margin-left: 2rem;
+}
+
+.contacto__grid1--col1 {
+    display: inline-block;
+    margin-right: 15rem;
+}
+.contacto__grid1--col2 {
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 2rem;
+    opacity: 0.7;
+}
+
+.contacto__grid2 {
+    margin-right: 2rem;
+    margin-top: -1rem;
+}
+
+.contacto__grid2 img {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+/*FORM*/
+
+.form__container {
+    /*width: 50%;*/
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+form {
+   /* display: grid;*/
+   /*grid-gap: 2rem;*/
+
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+.asunto {
+    margin-bottom: 2rem;
+}
+
+/* FOOTER ----------- */
+
+footer {
+    text-align: center;
+
+}
+
+.footerlogo__container{
+    margin-bottom: -25rem;
+    margin-top: -10rem;
+}
+
+.text__container p {
+    opacity: 0.7;
+    font-size: 2rem;
+}
